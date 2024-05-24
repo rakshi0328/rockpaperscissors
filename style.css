@@ -1,0 +1,82 @@
+header{
+    background: white;
+    padding: 20px;
+}
+header h1{
+    color: #444;
+    text-align: center;
+    font-weight: 150;
+}
+body{
+    background: #7b808d;
+    color: #fff;
+    font-family:'Lucida Sans';
+}
+.scoreboard
+{
+    border:3px solid#fff;
+    width: 350px;
+    margin: 40px auto;
+    font-size: 25px;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.badge{
+    background: #458b8d;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 8px;
+}
+#user-label {
+    position: absolute;
+    top: 30%;
+    left:-5%;
+    transform: translate(-10%,-20%);
+}
+#comp-label {
+    position: absolute;
+    top: 30%;
+    right:-5%;
+    transform: translate(30%,-20%);
+}
+#reset {
+    position: absolute;
+    background-color:#458b8d;
+    color: #fff;
+    top: -25%;
+    right: -35%;
+    height: 30px;
+    width: 60px;
+    transform: translate(-10%, -50%);
+}
+.result
+{
+    line-height: 50px;
+    text-align: center;
+}
+.choices{
+    margin:0 auto;
+    text-align: center;
+    padding:40px 0;
+}
+.choice{
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 30%;
+    padding: 10px;
+    margin: auto 20px;
+    transition: all 0.3s ease;
+}
+.choice img{
+    filter:invert(110%);
+}
+#message
+{
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin:40px 0;
+}
